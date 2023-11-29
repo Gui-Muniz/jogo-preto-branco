@@ -21,39 +21,39 @@ int main(){
 	
 	system("cls");
 	
-	printf("Quantas peÁas pretas? ");
+	printf("Quantas pe√ßas pretas? ");
 	scanf("%d", &P);
 	
 	system("cls");
 	
 	for(i = 0; i < P; i++){
-		printf("Qual a linha? ");
+		printf("Qual linha? ");
 		scanf("%d", &lP);
 		
-		printf("Qual a coluna? ");
+		printf("Qual coluna? ");
 		scanf("%d", &cP);
 		
 		system("cls");
 		
 		while(lP < 1 || cP < 1 || lP > l || cP > c){
-			printf("O n˙mero digitado n„o È v·lido! Por favor, tente novamente!\n");
+			printf("O n√∫mero digitado n√£o √© v√°lido!  tente novamente!\n");
 			
-			printf("Qual a linha? ");
+			printf("Qual linha? ");
 			scanf("%d", &lP);
 			
-			printf("Qual a coluna? ");
+			printf("Qual coluna? ");
 			scanf("%d", &cP);
 			
 			system("cls");
 		}
 		
 		while(PeB[lP - 1][cP - 1] != ' '){
-			printf("Est· casa j· est· ocupada! Por favor, tente novamente!\n");
+			printf("Est√° casa j√° est√° ocupada!  tente novamente!\n");
 			
-			printf("Qual a linha? ");
+			printf("Qual linha? ");
 			scanf("%d", &lP);
 		
-			printf("Qual a coluna? ");
+			printf("Qual coluna? ");
 			scanf("%d", &cP);
 		
 			system("cls");
